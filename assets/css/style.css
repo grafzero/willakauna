@@ -1,0 +1,102 @@
+.page-header .description {
+    font-weight: 400;
+}
+
+.plan {
+    width: 850px;
+    height: auto;
+    margin: 50px auto 0px auto;
+}
+
+.willa_1 {
+    width: 359px;
+    height: 227px;
+    background: url(../../img/1.jpg) no-repeat;
+}
+
+.willa_2 {
+    width: 491px;
+    height: 227px;
+    background: url(../../img/2.jpg) no-repeat;
+}
+
+.willa_3 {
+    width: 366px;
+    height: 198px;
+    background: url(../../img/3.jpg) no-repeat;
+}
+
+.willa_4 {
+    width: 366px;
+    height: 194px;
+    background: url(../../img/4.jpg) no-repeat;
+}
+
+.willa_5 {
+    width: 484px;
+    height: 192px;
+    background: url(../../img/5.jpg) no-repeat;
+}
+
+.willa_6 {
+    width: 484px;
+    height: 164px;
+    background: url(../../img/6.jpg) no-repeat;
+}
+
+.willa {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.willa:hover {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+
+.willa_2:hover .willa_pas {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+
+.sold {
+    filter: alpha(opacity=20);
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+a {
+    border: none;
+}
+
+.willa div {
+    width: 100%;
+    height: 100%;
+}
+
+span.sold-text {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    font-size: 20px;
+    display: none;
+}
+
+.willa:hover span.sold-text {
+   display: inline-block;
+}
+
+.card-background:after {
+    background-color: transparent;
+}
+
+#gemini-card {
+    height: 600px;
+}
