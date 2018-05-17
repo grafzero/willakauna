@@ -10361,7 +10361,7 @@ Created using IcoMoon - icomoon.io
     margin-top: 5px;
 }
 
-.team-2 [class*="col-md-"]:nth-child(2) {
+.team-2 [class*="col-md-"]:nth-child(2n) {
     margin-top: 45px;
 }
 
